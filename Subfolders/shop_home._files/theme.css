@@ -1,0 +1,456 @@
+/**
+ * @file
+ * @project 895
+ * @package css
+ * @site app3
+ */
+
+body {
+	margin-top: 20px;
+	font-size: 12px;
+	font-family: Verdana, Helvetica, sans serif;
+	font-weight: normal;
+	background-repeat: repeat-x;
+}
+
+p {
+	margin-top: 20px;
+	padding-top: 0px;
+}
+
+.sf_outer_wrapper {
+	width: 830px;
+	margin: auto;
+	margin-top: 0px;
+	background-repeat: repeat-y;
+}
+
+.sf_extra1 {
+	width: 830px;
+	height: 15px;
+	background-repeat: no-repeat;
+}
+
+.sf_wrapper {
+	width: 800px;
+	margin: 0 auto;
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section top naviation
+ * ------------------------------------------------------------------
+ */
+.sf_navigation_top {  /* one of the navs will be display: none; */
+	display: none;
+}
+
+.sf_navigation_top ul {
+
+}
+
+.sf_navigation_top ul:after {
+
+}
+.sf_navigation_top ul li {
+
+}
+
+.sf_navigation_top ul li.sf_last_nav_item {
+
+}
+
+.sf_navigation_top ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation_top ul li a {
+
+}
+
+.sf_navigation_top ul li a:visited {
+
+}
+
+.sf_navigation_top ul li a:hover {
+
+}
+
+.sf_extra10 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section header
+ * ------------------------------------------------------------------
+ */
+.sf_header_wrapper {
+	clear: both;
+	height: 186px;
+	width: 800px;
+	margin: 0px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-position:top left;
+}
+
+.sf_extra2 {
+	float: right;
+	width: 400px;
+	height: 186px;
+	margin-top: 0px;
+	padding-right: 0px;
+	background-image: url(images/main.jpg);
+	background-repeat: no-repeat;
+}
+
+.sf_main_header {  /*--Don't forget the height and overflow: hidden--*/
+	height: 170px;
+	width: 370px;
+	font-size: 26px;
+	text-align: left;
+	padding-top: 6px;
+	padding-left: 28px;
+	float: left;
+}
+
+.sf_main_header p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sf_extra3 {
+
+}
+
+.sf_sub_header {  /*--Don't forget the height and overflow: hidden--*/
+	display: none;
+}
+
+.sf_sub_header p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sf_extra4 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section navigation
+ * ------------------------------------------------------------------
+ */
+.sf_navigation {  /* one of the navs will be display: none; */
+	clear: both;
+	margin-top: 0px;
+	width: 800px;
+	background-repeat: no-repeat;
+	height: auto !important;
+}
+
+.sf_navigation ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sf_navigation:after,
+.sf_navigation ul:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0px;
+	font-size: 1px;
+	clear: both;
+}
+
+.sf_navigation ul li {
+	list-style-type: none;
+	display: inline;
+	float: left;
+}
+
+.sf_navigation ul li.sf_last_nav_item {
+
+}
+
+.sf_navigation ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation ul li a {
+	width: 160px;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 5px;
+	text-decoration: none;
+	display: block;
+}
+
+.sf_navigation ul li a:visited {
+
+}
+
+.sf_navigation ul li a:hover {
+	text-decoration: none;
+}
+
+/**
+ * @subsection dropdowns
+ */
+#Nav1,
+#Nav1 ul { /* all lists */
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+#Nav1 a {
+	display:block;
+}
+
+#Nav1 li { /* all list items */
+	float: left;
+}
+
+#Nav1 li ul { /* second-level lists */
+	position: absolute;
+	width: 168px;
+	left: -999em;
+	z-index: 1000;
+}
+
+#Nav1 li ul li { /* second-level lists */
+	background-color: #727272;
+	width: 160px;
+	background-image: none;
+	white-space: normal;
+	height: auto;
+	padding: 0px;
+	margin-left: 0px;
+}
+
+#Nav1 li ul li a, #Nav1 li ul li a:visited  { /* second-level lists */
+	background-image: none;
+	width: 160px;
+	height: auto;
+}
+
+#Nav1 li ul li a:hover  { /* second-level lists */
+	background-image: none;
+	width: 160px;
+	height: auto;
+	color: #bbb;
+}
+
+#Nav1 li:hover ul,
+#Nav1 li.sfhover ul { /* lists nested under hovered list items */
+	left: auto;
+}
+
+#Nav1 iframe {
+	position: absolute;
+	/* account for the border */
+	left: -0.25em;
+	top: -0.25em;
+	z-index: 0;
+	filter: progid:DXImageTransform.Microsoft.Alpha(style=0,opacity=0);
+	margin-left: 3px;
+}
+
+.sf_extra5 {
+	height: 30px;
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section page title
+ * ------------------------------------------------------------------
+ */
+.sf_pagetitle {
+	width: 744px;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: left;
+	padding: 0 28px 8px 28px;
+}
+
+.sf_extra6 {
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section sub navigation
+ * ------------------------------------------------------------------
+ */
+.sf_subnavigation {  /* subnavigations always display: none; */
+	display: none;
+}
+
+.sf_subnavigation ul {
+
+}
+
+.sf_subnavigation ul:after {
+
+}
+
+.sf_subnavigation ul li {
+
+}
+
+.sf_subnavigation ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation ul li a {
+
+}
+
+.sf_subnavigation ul li a:visited {
+
+}
+
+.sf_subnavigation ul li a:hover {
+
+}
+
+.sf_extra11 {
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section content
+ * ------------------------------------------------------------------
+ */
+.sf_content {
+	float: left;
+	width:782px;
+	padding-right: 0px;
+	padding-left: 18px;
+	margin: 0px;
+}
+
+.sf_extra12 {
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section sub navigation2
+ * ------------------------------------------------------------------
+ */
+.sf_subnavigation2 {  /* subnavigations always display: none; */
+	display: none;
+}
+
+.sf_subnavigation2 ul {
+
+}
+
+.sf_subnavigation2 ul:after {
+
+}
+
+.sf_subnavigation2 ul li {
+
+}
+
+.sf_subnavigation2 ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation2 ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation2 ul li a {
+
+}
+
+.sf_subnavigation2 ul li a:visited {
+
+}
+
+.sf_subnavigation2 ul li a:hover {
+
+}
+
+.sf_extra7 {
+
+}
+
+.sf_extra7 span {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section footer
+ * ------------------------------------------------------------------
+ */
+.sf_footer {
+	clear: both;
+	float: left;
+	padding: 28px 28px 0 28px;
+	font-size: 10px;
+	width: 744px;
+}
+
+.sf_footer p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.sf_extra8 {
+
+}
+
+.sf_extra9 {
+	width: 830px;
+	height: 22px;
+	clear: both;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.sf_banner {
+	margin-top: 45px;
+	text-align: center;
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section misc
+ * ------------------------------------------------------------------
+ */
+
+/**
+ * Sticking flyout menu bug
+ *
+ * @bugfix
+ * @affected ie7
+ * @css-for ie7
+ * @valid yes
+ */
+#Nav1 li:hover, #Nav1 li.hover {
+    position: static;
+}
+
+/**
+ * @subsection forms
+ */
+.form_item {
+	margin:0.35em 0;
+}
+
+/* prevents legend from expanding into sidebar */
+#checkoutShippingForm legend {
+	font-size:12px;
+}

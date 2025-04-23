@@ -1,0 +1,325 @@
+/**
+ * @file
+ * @project 895
+ * @package css
+ * @site app3
+ */
+
+body {
+	background-color: #8c8c8c /*~ main.background-color */;
+	background-image: url(images/bodybg_1.jpg);
+}
+
+p {
+
+}
+
+.sf_outer_wrapper {
+	background-image: url(images/wrapper_1.jpg);
+}
+
+.sf_extra1 {
+	background-image: url(images/top_image_1.gif);
+}
+
+.sf_wrapper {
+
+}
+
+a:link {
+	color: #787878 /*~ link.color */;
+}
+
+a:visited {
+	color: #787878 /*~ link-visited.color */;
+}
+
+a:hover {
+	color: #363636 /*~ link-hover.color */;
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section Top Navigation
+ * ------------------------------------------------------------------
+ */
+.sf_navigation_top {  /* one of the navs will be display: none; */
+
+}
+
+.sf_navigation_top ul {
+
+}
+
+.sf_navigation_top ul:after {
+
+}
+
+.sf_navigation_top ul li {
+
+}
+
+.sf_navigation_top ul li.sf_last_nav_item {
+
+}
+
+.sf_navigation_top ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation_top ul li a {
+
+}
+
+.sf_navigation_top ul li a:visited {
+
+}
+
+.sf_navigation_top ul li a:hover {
+
+}
+
+.sf_extra10 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section Header
+ * ------------------------------------------------------------------
+ */
+.sf_header_wrapper {
+	background-image: url(images/title_1.jpg);
+}
+
+.sf_extra2 {
+
+}
+
+.sf_main_header {  /*--Don't forget the height and overflow: hidden--*/
+	color: #ebebeb /*~ header.color */;
+	font-family: Verdana, Geneva, Kalimati, sans-serif /*~ header.font */;
+	font-size: 14px /*~ header.size */;
+}
+
+.company-name {
+	color: #EBEBEB /*~ company-name.color */;
+	font-family: Verdana, Geneva, Kalimati, sans-serif /*~ company-name.font */;
+	font-size: 26px /*~ company-name.size */;
+	font-weight: normal /*~ company-name.bold */;
+}
+
+.slogan {
+	color: #363636 /*~ slogan.color */;
+	font-family: Verdana, Geneva, Kalimati, sans-serif /*~ slogan.font */;
+	font-size: 16px /*~ slogan.size */;
+	font-weight: bold /*~ slogan.bold */;
+}
+
+.sf_extra3 {
+
+}
+
+.sf_sub_header {  /*--Don't forget the height and overflow: hidden--*/
+	color: #363636;
+}
+
+.sf_extra4 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section Navigation
+ * ------------------------------------------------------------------
+ */
+.sf_navigation {
+	background-image: url(images/navback_1.gif);
+	background-color: #424242;
+}
+
+.sf_navigation ul {
+
+}
+
+.sf_navigation ul:after {
+
+}
+
+.sf_navigation ul li {
+
+}
+
+.sf_navigation ul li.sf_last_nav_item {
+
+}
+
+.sf_navigation ul li.sf_first_nav_item {
+
+}
+
+.sf_navigation ul li a {
+	color: #ebebeb /*~ nav-menu.color */;
+	background-image: url(images/navback_1.gif);
+}
+
+.sf_navigation ul li a:visited {
+	color: #ebebeb /*~ nav-menu.color */;
+}
+
+.sf_navigation ul li a:hover {
+	color: #dfdfdf /*~ nav-menu-hover.color */;
+	background-image: url(images/navover_1.gif);
+}
+
+.sf_extra5 {
+	background-image: url(images/extra_1.gif);
+}
+.sf_category_menubar {
+	background-image: url(images/cat_menu_bg_1.jpg);
+}
+/**
+ * ------------------------------------------------------------------
+ * @section Page Title
+ * ------------------------------------------------------------------
+ */
+.sf_pagetitle {
+	color: #787878;
+}
+
+.sf_extra6 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section Sub Navigation
+ * ------------------------------------------------------------------
+ */
+.sf_subnavigation {  /* subnavigations always display: none; */
+	display: none;
+}
+
+.sf_subnavigation ul {
+
+}
+
+.sf_subnavigation ul:after {
+
+}
+
+.sf_subnavigation ul li {
+
+}
+
+.sf_subnavigation ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation ul li a {
+
+}
+
+.sf_subnavigation ul li a:visited {
+
+}
+
+.sf_subnavigation ul li a:hover {
+
+}
+
+.sf_extra11 {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section Content
+ * ------------------------------------------------------------------
+ */
+.sf_content {
+	color: #000019;
+}
+
+h2 {
+	color: #000019;
+}
+
+.sf_extra12 {
+
+}
+
+.sf_subnavigation2 { /* subnavigations always display: none; */
+	display: none;
+}
+
+.sf_subnavigation2 ul {
+
+}
+
+.sf_subnavigation2 ul:after {
+
+}
+
+.sf_subnavigation2 ul li {
+
+}
+
+.sf_subnavigation2 ul li.sf_last_nav_item {
+
+}
+
+.sf_subnavigation2 ul li.sf_first_nav_item {
+
+}
+
+.sf_subnavigation2 ul li a {
+
+}
+
+.sf_subnavigation2 ul li a:visited {
+
+}
+
+.sf_subnavigation2 ul li a:hover {
+
+}
+
+.sf_extra7 {
+
+}
+
+.sf_extra7 span {
+
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section footer
+ * ------------------------------------------------------------------
+ */
+.sf_footer {
+	color: #4c4c4c /*~ footer.color */;
+}
+
+.sf_extra8 {
+
+}
+
+.sf_extra9 {
+	background-image: url(images/footer_1.gif);
+}
+
+/**
+ * ------------------------------------------------------------------
+ * @section misc
+ * ------------------------------------------------------------------
+ */
+
+.sf_banner {
+
+}
